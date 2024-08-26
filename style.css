@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    position: relative;
+    position: flex;
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
@@ -169,10 +169,11 @@ body {
 }
 
 .container .right_side {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: #fff;
     padding: 40px;
-
 }
 
 .about {
